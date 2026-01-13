@@ -1,0 +1,28 @@
+/*selettore  di tag*/
+h1{
+    color: red;
+}
+p{
+    color: blue;
+    font-size: 18px;
+}
+/*selettore di classe*/
+.speciale{
+    color: red;
+    font-weight: bold;
+}
+/*selettore di id*/
+#impo{
+    color: rebeccapurple;
+    background-color: yellow;
+    padding: 10px;
+}
+section > p{ /*applica questo stile a tutti gli elementi p direttamente dentro alla section, quindi solo il paragrafo dentro la section e non quello dentro al div*/
+    background-color: lightblue;
+    padding: 10px;
+}
+/*prende il primo l'elemento che segue*/
+h3 + p{
+    font-weight: bold;
+    color: green;
+}
