@@ -26,3 +26,9 @@ h3 + p{
     font-weight: bold;
     color: green;
 }
+/*selettore universale, applica questo a tutta la pagina :*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
