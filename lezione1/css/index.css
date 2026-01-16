@@ -32,3 +32,24 @@ h3 + p{
     padding: 0px;
     box-sizing: border-box;
 }
+/*tutti i discendenti*/
+section p{ /*tutti i p dentro section*/
+    color: brown;
+}
+/*Pseudoclassi*/
+button{
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 26px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.95);
+}
